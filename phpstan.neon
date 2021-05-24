@@ -5,7 +5,8 @@ includes:
 parameters:
     level: 8
     paths:
-        - ../../../app
+        - ../../../src
+        - ../../../plugins
     excludePaths:
         - '.phpstorm.meta.php'
         - '_ide_helper.php'
