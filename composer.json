@@ -1,0 +1,21 @@
+{
+    "name": "jumptwentyfour/cakephp-coding-standards",
+    "description": "Coding standards for our CakePHP applications.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Miller",
+            "email": "chris@jump24.co.uk",
+            "homepage": "https://jump24.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "slevomat/coding-standard": "^7.0",
+        "symplify/easy-coding-standard": "^9.1",
+        "nikic/php-parser": "^4.0",
+        "phpstan/phpstan-strict-rules": "^0.12.9",
+        "cakedc/cakephp-phpstan": "^1.0"
+    }
+}

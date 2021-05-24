@@ -1,0 +1,13 @@
+includes:
+    - ../../phpstan/phpstan-strict-rules/rules.neon
+    - ../../cakedc/cakephp-phpstan/extension.neon
+
+parameters:
+    level: 8
+    paths:
+        - ../../../app
+    excludePaths:
+        - '.phpstorm.meta.php'
+        - '_ide_helper.php'
+        - 'server.php'
+    checkMissingIterableValueType: false
