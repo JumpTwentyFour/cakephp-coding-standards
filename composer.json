@@ -8,6 +8,12 @@
             "email": "chris@jump24.co.uk",
             "homepage": "https://jump24.co.uk",
             "role": "Developer"
+        },
+        {
+            "name": "Daniel Newn",
+            "email": "dan@jump24.co.uk",
+            "homepage": "https://jump24.co.uk",
+            "role": "Lead Developer"
         }
     ],
     "require": {
