@@ -19,12 +19,12 @@ Create a new `ecs.php` file like the following example:-
 
 declare(strict_types=1);
 
-use JumpTwentyFour\PhpCodingStandards\Support\ConfigHelper;
+use JumpTwentyFour\CakePHPCodingStandards\Support\ConfigHelper;
 use Symplify\EasyCodingStandard\Config\ECSConfig;
 use Symplify\EasyCodingStandard\ValueObject\Option;
 
 return static function (ECSConfig $ecsConfig): void {
-    $ecsConfig->import(__DIR__ . '/vendor/jumptwentyfour/php-coding-standards/ecs.php');
+    $ecsConfig->import(__DIR__ . '/vendor/jumptwentyfour/cakephp-coding-standards/ecs.php');
 
     $parameters = $ecsConfig->parameters();
     

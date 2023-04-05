@@ -17,11 +17,16 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^8.0",
         "slevomat/coding-standard": "^8.9.1",
         "symplify/easy-coding-standard": "^11.3.2",
         "nikic/php-parser": "^4.0",
         "cakedc/cakephp-phpstan": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JumpTwentyFour\\CakePHPCodingStandards\\": "src"
+        }
     },
     "config": {
         "allow-plugins": {
