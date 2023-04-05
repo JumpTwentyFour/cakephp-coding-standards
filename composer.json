@@ -8,13 +8,24 @@
             "email": "chris@jump24.co.uk",
             "homepage": "https://jump24.co.uk",
             "role": "Developer"
+        },
+        {
+            "name": "Daniel Newns",
+            "email": "dan@jump24.co.uk",
+            "homepage": "https://jump24.co.uk",
+            "role": "Lead Developer"
         }
     ],
     "require": {
         "php": "^7.2|^8.0",
-        "slevomat/coding-standard": "^7.0",
-        "symplify/easy-coding-standard": "^10.0.6",
+        "slevomat/coding-standard": "^8.9.1",
+        "symplify/easy-coding-standard": "^11.3.2",
         "nikic/php-parser": "^4.0",
-        "cakedc/cakephp-phpstan": "^1.0"
+        "cakedc/cakephp-phpstan": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }
